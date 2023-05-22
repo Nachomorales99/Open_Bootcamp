@@ -2,7 +2,7 @@ package Ejercicios;
 
 public class Coche {
 
-    public int doors;
+    public int doors = 4;
 
     public void increment() {
         doors++;
@@ -11,6 +11,7 @@ public class Coche {
     public static void main(String[] args) {
 
         Coche miCoche = new Coche();
+        miCoche.increment();
         miCoche.increment();
         System.out.println("Numero de puertas del coche: " + miCoche.doors);
 
